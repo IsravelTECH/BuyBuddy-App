@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/IsravelTECH/BuyBuddy/actions"><img src="https://img.shields.io/github/actions/workflow/status/IsravelTECH/BuyBuddy/build_mobile.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=Build%20APKs%20%26%20iOS" alt="Build Status"></a>
+  <a href="https://github.com/IsravelTECH/BuyBuddy-App/actions"><img src="https://img.shields.io/github/actions/workflow/status/IsravelTECH/BuyBuddy-App/build_mobile.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=Build%20APKs%20%26%20iOS" alt="Build Status"></a>
   <img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter" alt="Flutter">
   <img src="https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart" alt="Dart">
   <img src="https://img.shields.io/badge/Platforms-Android%20%7C%20iOS%20%7C%20Windows%20%7C%20Web-4285F4?style=for-the-badge" alt="Platforms">
@@ -19,9 +19,9 @@
 
 The **BuyBuddy Mobile App** is a responsive, cross-platform e-commerce client built with Flutter, Provider, and Dio. It seamlessly connects to the BuyBuddy cloud backend, featuring an ambient video hero banner, 7 rich product categories with 7 styles each, animated carousel browsing, real-time cart calculations, coupon redemption, and secure authentication.
 
-- 🌐 **Web & Backend Repository:** [IsravelTECH/E-commerce-store](https://github.com/IsravelTECH/E-commerce-store)
+- 🌐 **Web & Backend Repository:** [IsravelTECH/BuyBuddy](https://github.com/IsravelTECH/BuyBuddy)
 - ☁️ **Live Cloud API Endpoint:** `https://e-commerce-store-anqa.onrender.com/api`
-- ⚡ **Automated CI/CD Builds:** [GitHub Actions](https://github.com/IsravelTECH/BuyBuddy/actions)
+- ⚡ **Automated CI/CD Builds:** [GitHub Actions](https://github.com/IsravelTECH/BuyBuddy-App/actions)
 
 ---
 
@@ -114,8 +114,8 @@ mobile/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/IsravelTECH/BuyBuddy.git
-cd BuyBuddy
+git clone https://github.com/IsravelTECH/BuyBuddy-App.git
+cd BuyBuddy-App
 ```
 
 ---
@@ -184,7 +184,7 @@ Every time code is pushed to the `main` branch, GitHub Actions automatically:
 
 ### 📥 How to Download and Install the APK from GitHub Actions:
 
-1. Open the [BuyBuddy Actions Tab](https://github.com/IsravelTECH/BuyBuddy/actions).
+1. Open the [BuyBuddy-App Actions Tab](https://github.com/IsravelTECH/BuyBuddy-App/actions).
 2. Click on the latest workflow run with a green checkmark (e.g., *Fix Android build...*).
 3. Scroll down to the **Artifacts** section at the bottom of the page.
 4. Click on **BuyBuddy-Android-APKs** to download `BuyBuddy-Android-APKs.zip`.
